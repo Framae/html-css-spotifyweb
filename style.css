@@ -35,3 +35,11 @@ header {
     border: 1px solid white;
     border-radius: 40px;
 }
+
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 110px;
+    width: 100%;
+}
