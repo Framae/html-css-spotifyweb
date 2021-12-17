@@ -10,6 +10,7 @@ header {
     background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .flex {
@@ -24,6 +25,18 @@ header {
 .btn {
     background-color: transparent;
     border: none;
+    margin-right: 15px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 200px;
+    height: 1000px;
+    background-color: red;
+    z-index: 2;
 }
 
 .upper {
@@ -36,10 +49,18 @@ header {
     border-radius: 40px;
 }
 
+main {
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(2, 2, 17);
+    overflow-y: scroll;
+}
+
 footer {
     background-color: black;
     position: fixed;
     bottom: 0;
     height: 110px;
     width: 100%;
+    z-index: 3;
 }
