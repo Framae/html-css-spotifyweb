@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* COMMON */
@@ -27,9 +28,6 @@
     justify-content: space-around;
 }
 
-.d-ib {
-    display: inline-block;
-}
 /* header */
 
 header {
@@ -71,11 +69,18 @@ main {
 
 .li-deets {
     text-transform: uppercase;
-    color: white;
+    color: rgb(216, 209, 209);
     text-decoration: none;
     background-color: transparent;
     list-style: none;
     padding: 2px 20px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.d-ib {
+    display: inline-block;
+    margin: 10px 5px;
 }
 
 .column {
@@ -94,6 +99,8 @@ main {
 
 #logo {
    width: 80%; 
+   padding-top: 10px;
+   padding-left: 10px;
 }
 
 /* fine Main */
