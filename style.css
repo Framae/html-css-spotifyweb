@@ -41,14 +41,11 @@ main {
     min-height: 300px;
 }
 
+/* sidebar top */
+
 .sidebar-top {
     background-color: black;
     height: calc(100% - 100px);
-}
-
-.sidebar-bottom {
-    height: 100px;
-    background-color: gray;
 }
 
 .logo-container {
@@ -60,8 +57,6 @@ main {
     padding-top: 10px;
     padding-left: 10px;
 }
-
-/* loghi sidebar */
 
 /* logohome */
 
@@ -130,7 +125,7 @@ main {
 }
 /* fine logolibrary */
 
-
+/* playlist e crea */
 #playlist {
     color: white;
     font-size: 9px;
@@ -154,6 +149,65 @@ main {
 .creaspan {
     font-size: 11px;
 }
+
+/* fine playlist e crea */
+
+
+
+.li-playlist {
+    color: gray;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px 9px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* fine sidebar top */
+
+/* sidebar bottom */
+
+.sidebar-bottom {
+    height: 100px;
+    background-color: black;
+}
+
+/* logo install */
+
+.install {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    margin-bottom: 3px;
+    margin-left: 13px;
+}
+
+#logoinstall {
+    width:7%;
+    margin:0 5px;
+}
+
+.installspan {
+    font-size: 11px;
+    color: white;
+}
+
+/* fine logo install */
+
+/* logo John Doe */
+
+.doe-container {
+    width: 80%;
+    height: 22px;
+    border-top: 2px solid gray;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+/* fine logo John Doe */
+
+/* fine sidebar bottom */
 
 /* fine sidebar */
 
