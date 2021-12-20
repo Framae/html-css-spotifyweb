@@ -93,7 +93,6 @@ main {
     width: 200px;
     height: calc(100% - 110px);
     background-color: red;
-    /* z-index: 2; */
     position: fixed;
     top: 0;
     left: 0;
@@ -119,9 +118,24 @@ main {
 /* fine sidebar */
 
 .main-container {
-    width: 100%;
+    width: calc(100% - 200px);
+    height: 100%;
     background-color: cyan;
     overflow-y: scroll;
+    position: absolute;
+    right: 0;
+}
+
+.cta {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.content {
+    text-align: center;
 }
 
 /* fine Main */
