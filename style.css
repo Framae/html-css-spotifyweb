@@ -51,10 +51,24 @@ main {
     background-color: gray;
 }
 
-#logo {
+.logo-container {
+    height: 80px;
+}
+
+#logospotify {
     width: 80%; 
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.home {
+    height: 40px;
+    border-left: 2px solid rgb(53, 247, 53);
+}
+
+.logo {
+    width: 15%;
+    color: gray;
 }
 
 /* fine sidebar */
@@ -119,6 +133,8 @@ main {
     display: inline-block;
     margin: 10px 5px;
 }
+
+/* fine content */
 
 /* fine main container */
 
