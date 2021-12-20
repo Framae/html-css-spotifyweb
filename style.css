@@ -61,14 +61,98 @@ main {
     padding-left: 10px;
 }
 
+/* loghi sidebar */
+
+/* logohome */
+
 .home {
-    height: 40px;
-    border-left: 2px solid rgb(53, 247, 53);
+    display: flex;
+    align-items: center;
+    height: 22px;
+    border-left: 3px solid rgb(53, 247, 53);
+    margin-bottom: 3px;
 }
 
-.logo {
-    width: 15%;
+.logohome {
+    width:10%;
+    margin-left: 6px;
+    margin-right: 5px;
+}
+
+.homespan {
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+}
+
+/* fine logohome */
+
+/* logosearch */
+
+.search {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.logosearch {
+    width:10%;
+    margin: 0 5px;
+}
+
+.searchspan {
+    font-size: 11px;
+    color: white;
+}
+
+/* fine logosearch */
+
+/* logolibrary */
+
+.library {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.logolibrary {
+    width:10%;
+    margin: 0 5px;
+}
+
+.libraryspan {
+    font-size: 11px;
+    color: white;
+}
+/* fine logolibrary */
+
+
+#playlist {
+    color: white;
+    font-size: 9px;
+    margin-top: 15px;
+    margin-left: 9px;
+}
+
+.crea {
     color: gray;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    margin: 15px 9px;
+}
+
+.fa-plus-square {
+    font-size: 30px;
+    margin-right: 6px;
+}
+
+.creaspan {
+    font-size: 11px;
 }
 
 /* fine sidebar */
