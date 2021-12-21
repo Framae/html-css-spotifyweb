@@ -334,7 +334,7 @@ main {
     text-align: center;
 }
 
-.card-image:hover {
+.card:hover {
     display: none;
 }
 
