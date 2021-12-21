@@ -332,7 +332,10 @@ main {
     height: 170px;
     margin: 0 20px;
     text-align: center;
+}
 
+.card-image:hover {
+    display: none;
 }
 
 .heavy-metal {
