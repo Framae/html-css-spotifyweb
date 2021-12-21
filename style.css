@@ -68,6 +68,10 @@ main {
     margin-bottom: 3px;
 }
 
+.home:hover {
+
+}
+
 .logohome {
     width:10%;
     margin-left: 6px;
@@ -156,7 +160,9 @@ main {
 
 /* fine playlist e crea */
 
-
+.creaplaylist {
+    overflow-y: scroll;
+}
 
 .li-playlist {
     color: gray;
@@ -165,6 +171,10 @@ main {
     margin: 15px 9px;
     font-size: 10px;
     font-weight: bold;
+}
+
+.li-playlist:hover {
+    color: white;
 }
 
 /* fine sidebar top */
