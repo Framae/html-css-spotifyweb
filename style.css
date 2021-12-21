@@ -80,6 +80,10 @@ main {
     color: white;
 }
 
+.homespan:hover {
+    text-shadow: 1px 1px 1px;
+}
+
 /* fine logohome */
 
 /* logosearch */
@@ -256,6 +260,10 @@ main {
     margin-right: 15px;
 }
 
+.btn:hover {
+    transform: scale(1.1);
+}
+
 .btn-deets {
     text-transform: uppercase;
     color: white;
@@ -283,6 +291,11 @@ main {
     padding: 2px 20px;
     font-size: 10px;
     font-weight: 500;
+}
+
+.li-deets:hover {
+    color: white;
+    text-shadow: 1px 1px 1px;
 }
 
 .d-ib {
