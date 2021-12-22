@@ -45,7 +45,9 @@ main {
 
 .sidebar-top {
     background-color: black;
-    height: calc(100% - 100px);
+    height: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-container {
@@ -161,7 +163,7 @@ main {
 /* fine playlist e crea */
 
 .creaplaylist {
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .li-playlist {
@@ -182,9 +184,8 @@ main {
 /* sidebar bottom */
 
 .sidebar-bottom {
-    height: 100px;
+    height: 60px;
     background-color: black;
-    padding-top: 40px;
 }
 
 .contain {
@@ -334,7 +335,7 @@ main {
     text-align: center;
 }
 
-.card:hover {
+.card-image:hover {
     display: none;
 }
 
