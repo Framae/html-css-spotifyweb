@@ -334,15 +334,35 @@ main {
     height: 170px;
     margin: 0 20px;
     text-align: center;
-}
-
-.card-image:hover {
-    display: none;
+    position: relative;
 }
 
 .heavy-metal {
     width: 100%;
 }
+
+.fa-play-circle {
+    color: white;
+    font-size: 30px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover .overlay{
+    display: flex;
+    cursor: pointer;
+}
+
 
 
 /* fine main container */
