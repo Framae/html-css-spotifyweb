@@ -325,10 +325,16 @@ main {
     color: white;
 }
 
+#rec-play span {
+    color: gray;
+    font-size: 12px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
+    margin-bottom: 70px;
 }
 
 /* card */
