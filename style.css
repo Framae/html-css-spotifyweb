@@ -443,14 +443,14 @@ footer .cover img {
     width: 250px;
 }
 
-.album, .audio {
+.album, .audio ul {
     display: flex;
     align-items: center;
 }
 
 .audio ul li {
     list-style: none;
-    display: inline-block;
+    
 }
 
 .audio li a {
