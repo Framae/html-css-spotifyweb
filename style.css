@@ -343,6 +343,7 @@ main {
     width: 200px;
     height: 200px;
     margin-right: 15px;
+    margin-bottom: 50px;
     text-align: center;
     position: relative;
 }
@@ -360,6 +361,17 @@ main {
     font-size: 10px;
 }
 
+.card-image.border-radius {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-image.border-radius:hover .overlay {
+    border-radius: 100%;
+}
+
+
+
 /* overlay */
 
 .overlay {
@@ -374,7 +386,7 @@ main {
     justify-content: center;
 }
 
-.card:hover .overlay{
+.card-image:hover .overlay{
     display: flex;
     cursor: pointer;
 }
