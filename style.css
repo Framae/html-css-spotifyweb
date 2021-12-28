@@ -419,4 +419,40 @@ footer {
 
 footer .cover img {
     width: 50px;
+    margin-left: 10px;
+}
+
+.title {
+    margin: 0 50px 0 10px;
+}
+
+.album .title h4 a, .album .icon a {
+    color: white;
+}
+
+.album .title span a {
+    color: gray;
+    font-size: 10px;
+}
+
+.icon a {
+    margin: 0 5px;
+}
+
+.album, .audio {
+    width: 250px;
+}
+
+.album, .audio {
+    display: flex;
+    align-items: center;
+}
+
+.audio ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.audio li a {
+    color: white;
 }
