@@ -439,6 +439,8 @@ footer .cover img {
     margin: 0 5px;
 }
 
+/* .control-panel */
+
 .control-panel {
     width: 50%;
 }
@@ -447,6 +449,7 @@ footer .cover img {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .album, .control-panel ul li {
@@ -458,21 +461,66 @@ footer .cover img {
     color: white;
 }
 
+/* controller */
+
 .controller {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.current-time span, .total-time span {
+    color: white;
+}
+
 .control-barr {
     background-color: gray;
     height: 5px;
-    width: 80%;
+    width: 60%;
     border-radius: 20px;
+    position: relative;
 }
 
+.contr-bar {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 75%;
+    border-radius: 20px
+}
+
+.control-barr:hover .contr-bar {
+    background-color: yellowgreen;
+}
+
+.pallino {
+    background-color: white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: -100%;
+    right: 75%;
+    display: none;
+}
+
+.control-barr:hover .pallino {
+    display: block;
+}
+
+/* fine controller */
+
+/* fine control-panel */
 
 
+/* audio */
+
+.audio {
+    display: flex;
+    align-items: center;
+}
 
 .album, .audio {
     width: 250px;
@@ -490,4 +538,9 @@ footer .cover img {
 
 .audio li a {
     color: white;
+    margin: 0 7px;
+}
+
+.audio li a:hover {
+    text-shadow: 1px 1px 1px;
 }
