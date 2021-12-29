@@ -52,12 +52,26 @@ main {
 
 .logo-container {
     height: 80px;
+    position: relative;
 }
 
 #logospotify {
     width: 80%; 
     padding-top: 10px;
     padding-left: 10px;
+    
+}
+
+#logo-mobile {
+    width: 40px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
 }
 
 /* logohome */
@@ -292,6 +306,21 @@ main {
 
 .content {
     text-align: center;
+}
+
+.content ul li {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #94dd25;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .li-deets {
@@ -547,4 +576,12 @@ footer .cover img {
 
 .audio li a:hover {
     text-shadow: 1px 1px 1px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px){
+    .sidebar {
+        width: 40px;
+    }
 }
