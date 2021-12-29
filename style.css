@@ -439,18 +439,40 @@ footer .cover img {
     margin: 0 5px;
 }
 
-.album, .control-panel ul {
+.control-panel {
+    width: 50%;
+}
+
+.control-panel ul {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .album, .control-panel ul li {
     list-style: none;
+    margin: 0 15px;
 }
 
-.album, .control-panel ul li a {
+.control-panel ul li a {
     color: white;
 }
+
+.controller {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.control-barr {
+    background-color: gray;
+    height: 5px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+
 
 .album, .audio {
     width: 250px;
