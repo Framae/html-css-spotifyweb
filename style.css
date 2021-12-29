@@ -410,7 +410,7 @@ main {
 
 footer {
     background-color: rgb(37, 36, 36);
-    height: 100px;
+    height: 110px;
     position: relative;
     display: flex;
     align-items: center;
@@ -459,6 +459,10 @@ footer .cover img {
 
 .control-panel ul li a {
     color: white;
+}
+
+.control-panel ul li a:hover {
+    text-shadow: 1px 1px 0;
 }
 
 /* controller */
