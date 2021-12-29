@@ -439,6 +439,19 @@ footer .cover img {
     margin: 0 5px;
 }
 
+.album, .control-panel ul {
+    display: flex;
+    align-items: center;
+}
+
+.album, .control-panel ul li {
+    list-style: none;
+}
+
+.album, .control-panel ul li a {
+    color: white;
+}
+
 .album, .audio {
     width: 250px;
 }
