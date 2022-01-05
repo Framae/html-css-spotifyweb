@@ -573,7 +573,7 @@ footer .cover img {
 
 /* responsive */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
     .sidebar {
         width: 40px;
     }
@@ -582,7 +582,7 @@ footer .cover img {
         width: calc(100% - 40px)
     }
 
-    #logospotify {
+    #logospotify, #playlist, .crea, .creaplaylist {
         display: none;
     }
 
@@ -604,4 +604,13 @@ footer .cover img {
     .home {
         margin-top: 15px;
     }
+}
+
+@media screen and (max-width: 770px) {
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
