@@ -570,6 +570,16 @@ footer .cover img {
 /* responsive */
 
 @media screen and (max-width: 400px){
+
+    /* .row {
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .card {
+        width: calc(100% / 2);
+    }
+
     .sidebar {
         width: 40px;
     }
@@ -602,11 +612,15 @@ footer .cover img {
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 660px) {
 
     .row {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    .card {
+        width: calc(100% / 4 - 15px);
     }
     
 }
